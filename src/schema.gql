@@ -1,0 +1,14 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """Hello World function"""
+  hello: String!
+
+  """Random number function"""
+  random: Float!
+
+  """From zero to a number function (default 6)"""
+  randomInt(to: Int): Int!
+}
